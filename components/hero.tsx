@@ -7,7 +7,7 @@ export default function Hero() {
   const attemptPlay = () => {
     videoEl &&
       videoEl.current &&
-      videoEl.current.play().catch(error => {
+      (videoEl.current as HTMLVideoElement)?.play().catch(error => {
         console.error("Error attempting to play", error);
       });
   };
