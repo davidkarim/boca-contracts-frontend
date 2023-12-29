@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'additional-styles/utility-patterns.css';
+@import 'additional-styles/range-slider.css';
+@import 'additional-styles/toggle-switch.css';
+@import 'additional-styles/theme.css';
+
+@import 'tailwindcss/utilities';
+
+/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+/* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
+[x-cloak=""] {
+    display: none;
+}
+
+/* Accordion styling */
+.ui.styled.accordion {
+    display: block;
+    border-bottom: 1px solid #e2e8f0;
+    background-color: rgb(93, 93, 255) !important;
+}
+
+body > div > main > section > div > div > div.accordion.ui.styled > div.active.title {
+    color: #e2e8f0;
+}
