@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Home - Boca Contracts',
+  description: 'Catalog of Web3 smart contracts',
 }
 
 import Hero from '@/components/hero'
