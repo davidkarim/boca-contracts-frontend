@@ -5,8 +5,6 @@ export default function Header() {
 
   const app_endpoint = process.env['APP_ENDPOINT']
 
-  console.log('APP_ENDPOINT', app_endpoint);
-
   return (
     <header className="absolute w-full z-30">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css" />
