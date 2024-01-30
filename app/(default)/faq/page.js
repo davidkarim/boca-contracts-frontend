@@ -58,9 +58,32 @@ import { Accordion, Icon } from 'semantic-ui-react'
                   onClick={handleClick}
                 >
                   <Icon name='dropdown' />
-                  Are smart contracts legally binding?
+                  How do I access the site? How do I get a login?
                 </Accordion.Title>
                 <Accordion.Content active={activeIndex === 1}>
+                  <p>
+                    The site is secured using your Ethereum wallet. You can use any
+                    wallet that supports Web3, such as MetaMask, Trust Wallet, or
+                    Coinbase Wallet. You can also use a hardware wallet such as a
+                    Ledger or Trezor. If you don’t have a wallet, you can create one
+                    using MetaMask or Trust Wallet. Once you have a wallet, you can
+                    access the site by clicking the “Enter App” button in the top
+                    right corner of the screen. You will be prompted to sign a message
+                    using your wallet. Once you sign the message, you will be logged
+                    in. You can then create a new contract or view your existing
+                    contracts.
+                  </p>
+                </Accordion.Content>
+
+                <Accordion.Title
+                  active={activeIndex === 2}
+                  index={2}
+                  onClick={handleClick}
+                >
+                  <Icon name='dropdown' />
+                  Are smart contracts legally binding?
+                </Accordion.Title>
+                <Accordion.Content active={activeIndex === 2}>
                   <p>
                     Although it would depend on your jurisdiction, smart contracts can be legally binding. The code is law. The code
                     itself is the contract. The code dictates the rules and penalties
@@ -73,14 +96,14 @@ import { Accordion, Icon } from 'semantic-ui-react'
                 </Accordion.Content>
 
                 <Accordion.Title
-                  active={activeIndex === 2}
-                  index={2}
+                  active={activeIndex === 3}
+                  index={3}
                   onClick={handleClick}
                 >
                   <Icon name='dropdown' />
                   Are dApps and smart contracts the same thing?
                 </Accordion.Title>
-                <Accordion.Content active={activeIndex === 2}>
+                <Accordion.Content active={activeIndex === 3}>
                   <p>
                     The terms are often used interchangeably; distributed applications (dApps) are decentralized applications that run on a peer-to-peer
                     network of computers rather than a single computer. dApps are
@@ -92,14 +115,14 @@ import { Accordion, Icon } from 'semantic-ui-react'
                 </Accordion.Content>
 
                 <Accordion.Title
-                  active={activeIndex === 3}
-                  index={3}
+                  active={activeIndex === 4}
+                  index={4}
                   onClick={handleClick}
                 >
                   <Icon name='dropdown' />
                   Why are smart contracts said to be trustless?
                 </Accordion.Title>
-                <Accordion.Content active={activeIndex === 3}>
+                <Accordion.Content active={activeIndex === 4}>
                   <p>
                     Smart contracts are trustless because they are self-executing and
                     self-enforcing. The code itself is the contract. The code dictates

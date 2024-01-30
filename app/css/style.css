@@ -30,4 +30,18 @@
 
 body > div > main > section > div > div > div.accordion.ui.styled > div.active.title {
     color: #e2e8f0;
+    font-size: 16px;
+}
+/* Apply same as above, but only for hover */
+body > div > main > section > div > div > div.accordion.ui.styled > div.title:hover {
+    color: #e2e8f0;
+    font-size: 16px;
+}
+
+body > div > main > section > div > div > div.accordion.ui.styled > div.title {
+    color: #aaaaaa;
+}
+
+body > div > main > section > div > div > div.accordion.ui.styled {
+    background-color: rgba(93, 93, 255, 0.4) !important;
 }
