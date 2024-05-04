@@ -1,5 +1,7 @@
 'use client'
 
+import { GoogleAnalytics } from "nextjs-google-analytics";
+
 import { useEffect } from 'react'
 
 import AOS from 'aos'
@@ -26,6 +28,7 @@ export default function DefaultLayout({
   return (
     <>
       <main className="grow">
+        <GoogleAnalytics trackPageViews={true} />
 
         <PageIllustration />
 
