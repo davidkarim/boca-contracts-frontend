@@ -1,6 +1,7 @@
 'use client'
 
 import { GoogleAnalytics } from "nextjs-google-analytics";
+import ChatwootWidget from '@/components/ChatwootWidget';
 
 import { useEffect } from 'react'
 
@@ -29,6 +30,7 @@ export default function DefaultLayout({
     <>
       <main className="grow">
         <GoogleAnalytics trackPageViews={true} />
+        <ChatwootWidget />
 
         <PageIllustration />
 
