@@ -45,16 +45,16 @@ export default function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Basics of Blockchain</Link>
+                    <Link href="/blog/basics-of-blockchain" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Basics of Blockchain</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">The Ethereum Ecosystem</Link>
+                    <Link href="/blog/the-ethereum-ecosystem" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">The Ethereum Ecosystem</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Smart Contracts Basics</Link>
+                    <Link href="/blog/smart-contract-basics" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Smart Contracts Basics</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Why Blockchain?</Link>
+                    <Link href="/blog/why-blockchain" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Why Blockchain?</Link>
                   </li>
                 </ul>
               </div>
