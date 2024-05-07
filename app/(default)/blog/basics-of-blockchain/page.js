@@ -16,6 +16,8 @@ export default function Article() {
   const publishedDate = 'April 5, 2024';
   const articleImage = '/images/blockchain-abstract.jpeg';
 
+  const articleImageFull = "https://www.bocacontracts.com" + articleImage;
+
   let articleText = [];
   articleText.push("Blockchain technology has received widespread attention in recent years, primarily due to its role in powering cryptocurrencies like Bitcoin and Ethereum. At its core, a blockchain is a decentralized and distributed ledger that records transactions across a network of computers.");
   articleText.push("Bitcoin, introduced in 2009 by the mysterious Satoshi Nakamoto, is the first and most well-known application of blockchain technology. It serves as a peer-to-peer electronic cash system, enabling users to transfer value directly without the need for intermediaries like banks. Transactions on the Bitcoin blockchain are verified by network participants, known as miners, who solve complex mathematical puzzles to validate and add new blocks of transactions to the chain.");
@@ -30,7 +32,7 @@ export default function Article() {
     <meta name="twitter:card" content="summary_large_image"></meta>
     <meta name="twitter:site" content="@bocacontracts"></meta>
     <meta name="twitter:title" content={title}></meta>
-    <meta name="twitter:image" content={articleImage}></meta>
+    <meta name="twitter:image" content={articleImageFull}></meta>
 
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

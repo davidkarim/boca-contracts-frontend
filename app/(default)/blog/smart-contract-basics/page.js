@@ -16,6 +16,8 @@ export default function Article() {
   const publishedDate = 'April 19, 2024';
   const articleImage = '/images/smart-contract-abstract.jpeg';
 
+  const articleImageFull = "https://www.bocacontracts.com" + articleImage;
+
   let articleText = [];
   articleText.push("In the evolving landscape of digital technology, Web3 smart contracts stand out as a revolutionary tool, driving the transition from traditional, centralized systems to decentralized solutions. Smart contracts are self-executing contracts with the terms of the agreement directly written into lines of code. These contracts run on blockchain technology, which ensures decentralization, transparency, and immutability.");
   articleText.push("Smart contracts offer several compelling advantages that address inherent issues in traditional contracting, such as the need for trust and the inefficiency of intermediaries. They automate processes and ensure that all parties to a contract adhere strictly to the agreed-upon terms without the need for intermediaries. This automation not only cuts costs but also significantly reduces the time involved in verifying and enforcing agreements.");
@@ -29,7 +31,7 @@ export default function Article() {
     <meta name="twitter:card" content="summary_large_image"></meta>
     <meta name="twitter:site" content="@bocacontracts"></meta>
     <meta name="twitter:title" content={title}></meta>
-    <meta name="twitter:image" content={articleImage}></meta>
+    <meta name="twitter:image" content={articleImageFull}></meta>
 
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

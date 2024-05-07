@@ -16,6 +16,8 @@ export default function Article() {
   const publishedDate = 'April 12, 2024';
   const articleImage = '/images/why-blockchain-abstract.jpeg';
 
+  const articleImageFull = "https://www.bocacontracts.com" + articleImage;
+
   let articleText = [];
   articleText.push("Blockchain technology offers several distinct advantages over traditional databases and ledgers that make it an attractive option for a variety of applications. Unlike traditional databases that are managed by a central authority, blockchain is inherently decentralized. This decentralization provides enhanced security and transparency, as every transaction on a blockchain is recorded on a block and across multiple copies of the ledger that are distributed across a network of computers. This makes it extremely difficult to alter information retroactively without the consensus of the network, significantly reducing the risks of fraud and data tampering.");
   articleText.push("Blockchains also enhance trust among users. In environments where parties may not trust each other fully, blockchain provides a trustworthy infrastructure by ensuring that all transactions are immutably recorded and verifiable by all parties. This characteristic is particularly beneficial for industries like finance, where the integrity of transactions is paramount.");
@@ -30,7 +32,7 @@ export default function Article() {
     <meta name="twitter:card" content="summary_large_image"></meta>
     <meta name="twitter:site" content="@bocacontracts"></meta>
     <meta name="twitter:title" content={title}></meta>
-    <meta name="twitter:image" content={articleImage}></meta>
+    <meta name="twitter:image" content={articleImageFull}></meta>
 
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

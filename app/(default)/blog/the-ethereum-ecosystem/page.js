@@ -16,6 +16,8 @@ export default function Article() {
   const publishedDate = 'April 26, 2024';
   const articleImage = '/images/ethereum-ecosystem.jpeg';
 
+  const articleImageFull = "https://www.bocacontracts.com" + articleImage;
+
   let articleText = [];
   articleText.push("Ethereum stands as a colossal figure in the landscape of blockchain technology. Initially proposed in 2013 by Vitalik Buterin and launched in 2015, Ethereum introduced the novel concept of a blockchain that could execute more than just financial transactions. Its core innovation, the Ethereum Virtual Machine (EVM), set the stage for decentralized applications (DApps) by allowing developers to write and deploy smart contracts in a Turing-complete environment.");
   articleText.push("The EVM is essentially the backbone of the Ethereum network, providing a sandboxed virtual stack embedded within each full Ethereum node. It enables the execution of bytecode, which is compiled from high-level languages like Solidity—the most popular language for writing Ethereum smart contracts. The EVM is designed to serve as a neutral, deterministic execution environment that ensures the same smart contract will produce the same output across all nodes in the network. This universality is crucial for maintaining consensus across Ethereum’s decentralized architecture.");
@@ -29,7 +31,7 @@ export default function Article() {
     <meta name="twitter:card" content="summary_large_image"></meta>
     <meta name="twitter:site" content="@bocacontracts"></meta>
     <meta name="twitter:title" content={title}></meta>
-    <meta name="twitter:image" content={articleImage}></meta>
+    <meta name="twitter:image" content={articleImageFull}></meta>
 
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
