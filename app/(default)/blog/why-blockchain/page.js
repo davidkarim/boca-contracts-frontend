@@ -14,7 +14,8 @@ export default function Article() {
   const authorTitle = 'Founder';
   const authorAvatar = '/images/david-k-test-avatar.jpeg';
   const publishedDate = 'April 12, 2024';
-  const articleImage = '/images/why-blockchain-abstract.jpeg';
+  // Adding a query string to the image URL to force a cache refresh
+  const articleImage = '/images/why-blockchain-abstract.jpeg?1234';
 
   const articleImageFull = "https://www.bocacontracts.com" + articleImage;
 
