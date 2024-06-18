@@ -135,6 +135,26 @@ import { Accordion, Icon } from 'semantic-ui-react'
                   </p>
                 </Accordion.Content>
 
+                <Accordion.Title
+                  active={activeIndex === 5}
+                  index={5}
+                  onClick={handleClick}
+                >
+                  <Icon name='dropdown' />
+                  What are gas fees?
+                </Accordion.Title>
+                <Accordion.Content active={activeIndex === 5}>
+                  <p>
+                  Gas fees refer to the payment needed for transactions on the blockchain. 
+                  Gas fees depend on the supply and demand of compute resources on the 
+                  blockchain and are collected by the network validators or miners. 
+                  When you make a payment, deploy smart contracts, or write information to the 
+                  blockchain you will see a break-down of the fees on your wallet application. You 
+                  can think of gas fees as the cost of doing business on the blockchain, or 
+                  being equivalent to transaction fees in traditional banking systems.
+                  </p>
+                </Accordion.Content>
+
             </Accordion>
 
 
