@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
+import EnterAppButton from '../EnterAppButton'
 
 export default function Header() {
 
-  const app_endpoint = process.env['APP_ENDPOINT']
+  const app_endpoint = process.env['APP_ENDPOINT'];
 
   return (
     <header className="absolute w-full z-30">
@@ -31,9 +32,7 @@ export default function Header() {
                 </Link>
               </li> */}
               <li>
-                <Link href={`${app_endpoint}`} className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-                  Enter App
-                </Link>
+                <EnterAppButton app_endpoint={app_endpoint} />
               </li>
             </ul>
           </nav>
