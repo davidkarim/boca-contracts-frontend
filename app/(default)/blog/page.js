@@ -20,6 +20,13 @@ import {
     let articles =[];
 
     articles.push({
+        title: 'Connecting to Web3 applications on mobile with MetaMask',
+        description: 'Web3 applications such as bocacontracts require the use of a Web3 wallet in order for you to interact with the blockchain. MetaMask is the most popular Web3 wallet currently in use. On desktop, it is typically installed via a browser extension available on all broswers with the exception of Safari. On mobile, MetaMask can be installed as an app from your device\'s app store.',
+        image: '/images/mobile-metamask-abstract.jpg',
+        link: '/blog/connect-to-web3-on-mobile-metamask',
+        publishedDate: 'June 1, 2024'
+    });
+    articles.push({
         title: 'The Ethereum Ecosystem',
         description: 'Ethereum stands as a colossal figure in the landscape of blockchain technology. Initially proposed in 2013 by Vitalik Buterin and launched in 2015, Ethereum introduced the novel concept of a blockchain that could execute more than just financial transactions. Its core innovation, the Ethereum Virtual Machine (EVM), set the stage for decentralized applications (DApps) by allowing developers to write and deploy smart contracts in a Turing-complete environment.',
         image: '/images/ethereum-ecosystem.jpeg',
